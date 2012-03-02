@@ -1,0 +1,496 @@
+TScrollViewSample
+v7
+r0
+t350798661.261922
+cCheck dependencies
+cCpResource build/Debug-iphoneos/ScrollViewSample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/Info.plist ScrollViewSample-Info.plist
+cCompileXIB /Users/Jamming/Documents/ScrollViewSample/iPhone/MainWindow_iPhone.xib
+cCompileXIB /Users/Jamming/Documents/ScrollViewSample/iPad/MainWindow_iPad.xib
+cCpResource build/Debug-iphoneos/ScrollViewSample.app/thumb thumb
+cCpResource build/Debug-iphoneos/ScrollViewSample.app/photo photo
+cProcessPCH /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-ffqeuphcwqtdbweqmmuudpgahqtx/ScrollViewSample_Prefix.pch.gch ScrollViewSample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-dlwyxiiylfxpcqgftznlmbdqwxdt/ScrollViewSample_Prefix.pch.gch ScrollViewSample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/main.o /Users/Jamming/Documents/ScrollViewSample/Shared/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/AppDelegate_iPhone.o /Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/AppDelegate_iPad.o /Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewController.o /Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewSample normal armv6
+cCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/main.o /Users/Jamming/Documents/ScrollViewSample/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/AppDelegate_iPad.o /Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewController.o /Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewSample normal armv7
+cCreateUniversalBinary /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample normal "armv6 armv7"
+cGenerateDSYMFile /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app.dSYM /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample
+cProcessProductPackaging "/Users/Jamming/Library/MobileDevice/Provisioning Profiles/96DC96E5-06F0-4BC7-B3DD-017C4428E13A.mobileprovision" /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/embedded.mobileprovision
+cTouch /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample.xcent
+cCodeSign /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004E44CF240000000000000110
+t1313132324
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/Jamming/Documents/ScrollViewSample/ScrollViewController.h
+c000000004F366D6300000000000001E4
+t1328967011
+s484
+i<UIKit/UIKit.h>
+
+N/Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m
+c000000004F388BC200000000000024D2
+t1329105858
+s9426
+i"ScrollViewController.h"
+
+N/Users/Jamming/Documents/ScrollViewSample/ScrollViewSample_Prefix.pch
+c000000004F36219400000000000000C9
+t1328947604
+s201
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Jamming/Documents/ScrollViewSample/Shared/main.m
+c000000004F362194000000000000015F
+t1328947604
+s351
+i<UIKit/UIKit.h>
+
+N/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app
+t1329105861
+s442
+
+N/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app.dSYM
+t1329105861
+s102
+
+N/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/Info.plist
+t1329104776
+s1195
+
+N/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/MainWindow_iPad.nib
+t1329104778
+s1530
+
+N/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/MainWindow_iPhone.nib
+t1329104777
+s1531
+
+N/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/PkgInfo
+t1329104776
+s8
+
+N/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ResourceRules.plist
+t1329104776
+s485
+
+N/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample
+t1329105861
+s82064
+
+N/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/embedded.mobileprovision
+t1329104797
+s12356
+
+N/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/photo
+t1329104778
+s476
+
+N/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/thumb
+t1329104778
+s476
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/AppDelegate_iPad.o
+t1329104781
+s50020
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/AppDelegate_iPhone.o
+t1329104780
+s50792
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewController.o
+t1329105860
+s63684
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewSample
+t1329105860
+s31300
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewSample.LinkFileList
+c000000004F388788000000000000024E
+t1329104776
+s590
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/main.o
+t1329104780
+s6468
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/AppDelegate_iPad.o
+t1329104796
+s49968
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/AppDelegate_iPhone.o
+t1329104795
+s50736
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewController.o
+t1329105860
+s62328
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewSample
+t1329105860
+s31020
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewSample.LinkFileList
+c000000004F388788000000000000024E
+t1329104776
+s590
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/main.o
+t1329104795
+s6452
+
+N/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample.xcent
+t1329104797
+s438
+
+N/Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.h
+c000000004F3623B20000000000000192
+t1328948146
+s402
+i<UIKit/UIKit.h>
+i"ScrollViewController.h"
+
+N/Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m
+c000000004F3623AE0000000000000734
+t1328948142
+s1844
+i"AppDelegate_iPad.h"
+
+N/Users/Jamming/Documents/ScrollViewSample/iPad/MainWindow_iPad.xib
+c000000004F36219400000000000036E4
+t1328947604
+s14052
+
+N/Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.h
+c000000004F3623C30000000000000195
+t1328948163
+s405
+i<UIKit/UIKit.h>
+i"ScrollViewController.h"
+
+N/Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m
+c000000004F3623D40000000000000A5E
+t1328948180
+s2654
+i"AppDelegate_iPhone.h"
+
+N/Users/Jamming/Documents/ScrollViewSample/iPhone/MainWindow_iPhone.xib
+c000000004F3621940000000000003913
+t1328947604
+s14611
+
+N/Users/Jamming/Documents/ScrollViewSample/photo
+c000000004F36716C00000000000001FE
+t1328968044
+s510
+
+N/Users/Jamming/Documents/ScrollViewSample/thumb
+c000000004F366BF400000000000001DC
+t1328966644
+s476
+
+N/Users/Jamming/Library/MobileDevice/Provisioning Profiles/96DC96E5-06F0-4BC7-B3DD-017C4428E13A.mobileprovision
+c000000004EFD2DFE0000000000003044
+t1325215230
+s12356
+
+N/var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-dlwyxiiylfxpcqgftznlmbdqwxdt/ScrollViewSample_Prefix.pch.gch
+t1328968845
+s10647452
+
+N/var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-ffqeuphcwqtdbweqmmuudpgahqtx/ScrollViewSample_Prefix.pch.gch
+t1328968845
+s10184604
+
+NScrollViewSample-Info.plist
+c000000004F3621940000000000000569
+t1328947604
+s1385
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies350798660#350798660#0(0"0(0#1#0"2418987504#0"0#
+
+CCodeSign /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app
+s350798661.048929
+e350798661.261891
+r1
+xCodeSign
+x/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app
+lSLF07#2@50"CodeSign build/Debug-iphoneos/ScrollViewSample.app350798661#350798661#0(0"0(0#0#83"/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app2418987504#702"    cd /Users/Jamming/Documents/ScrollViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Xian Fang (CL46FP754S)" --resource-rules=/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ResourceRules.plist --entitlements /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample.xcent /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app0#
+
+CCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/AppDelegate_iPad.o /Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s350797580.820105
+e350797581.033644
+r1
+xCompileC
+xbuild/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/AppDelegate_iPad.o
+x/Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m350797580#350797581#0(0"0(0#0#65"/Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m2418987504#1966"    cd /Users/Jamming/Documents/ScrollViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-generated-files.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-own-target-headers.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-all-target-headers.hmap -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-project-headers.hmap -F/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -I/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/include -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources/armv6 -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources -include /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-ffqeuphcwqtdbweqmmuudpgahqtx/ScrollViewSample_Prefix.pch -c /Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m -o /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/AppDelegate_iPad.o0#
+
+CCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/AppDelegate_iPhone.o /Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s350797580.353698
+e350797580.820028
+r1
+xCompileC
+xbuild/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/AppDelegate_iPhone.o
+x/Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m350797580#350797580#0(0"0(0#0#69"/Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m2418987504#1972"    cd /Users/Jamming/Documents/ScrollViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-generated-files.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-own-target-headers.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-all-target-headers.hmap -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-project-headers.hmap -F/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -I/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/include -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources/armv6 -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources -include /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-ffqeuphcwqtdbweqmmuudpgahqtx/ScrollViewSample_Prefix.pch -c /Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m -o /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/AppDelegate_iPhone.o0#
+
+CCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewController.o /Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s350798660.508503
+e350798660.706868
+r1
+xCompileC
+xbuild/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewController.o
+x/Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m350798660#350798660#0(0"0(0#0#64"/Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m2418987504#1969"    cd /Users/Jamming/Documents/ScrollViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-generated-files.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-own-target-headers.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-all-target-headers.hmap -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-project-headers.hmap -F/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -I/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/include -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources/armv6 -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources -include /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-ffqeuphcwqtdbweqmmuudpgahqtx/ScrollViewSample_Prefix.pch -c /Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m -o /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewController.o0#
+
+CCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/main.o /Users/Jamming/Documents/ScrollViewSample/Shared/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s350797578.969648
+e350797580.353449
+r1
+xCompileC
+xbuild/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/main.o
+x/Users/Jamming/Documents/ScrollViewSample/Shared/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Jamming/Documents/ScrollViewSample/Shared/main.m350797578#350797580#0(0"0(0#0#55"/Users/Jamming/Documents/ScrollViewSample/Shared/main.m2418987504#1944"    cd /Users/Jamming/Documents/ScrollViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-generated-files.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-own-target-headers.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-all-target-headers.hmap -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-project-headers.hmap -F/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -I/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/include -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources/armv6 -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources -include /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-ffqeuphcwqtdbweqmmuudpgahqtx/ScrollViewSample_Prefix.pch -c /Users/Jamming/Documents/ScrollViewSample/Shared/main.m -o /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/AppDelegate_iPad.o /Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s350797595.787893
+e350797596.154003
+r1
+xCompileC
+xbuild/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/AppDelegate_iPad.o
+x/Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m350797595#350797596#0(0"0(0#0#65"/Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m2418987504#1966"    cd /Users/Jamming/Documents/ScrollViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-generated-files.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-own-target-headers.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-all-target-headers.hmap -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-project-headers.hmap -F/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -I/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/include -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources/armv7 -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources -include /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-dlwyxiiylfxpcqgftznlmbdqwxdt/ScrollViewSample_Prefix.pch -c /Users/Jamming/Documents/ScrollViewSample/iPad/AppDelegate_iPad.m -o /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/AppDelegate_iPad.o0#
+
+CCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s350797595.157113
+e350797595.787794
+r1
+xCompileC
+xbuild/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/AppDelegate_iPhone.o
+x/Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m350797595#350797595#0(0"0(0#0#69"/Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m2418987504#1972"    cd /Users/Jamming/Documents/ScrollViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-generated-files.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-own-target-headers.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-all-target-headers.hmap -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-project-headers.hmap -F/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -I/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/include -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources/armv7 -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources -include /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-dlwyxiiylfxpcqgftznlmbdqwxdt/ScrollViewSample_Prefix.pch -c /Users/Jamming/Documents/ScrollViewSample/iPhone/AppDelegate_iPhone.m -o /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/AppDelegate_iPhone.o0#
+
+CCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewController.o /Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s350798660.781022
+e350798660.933921
+r1
+xCompileC
+xbuild/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewController.o
+x/Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m350798660#350798660#0(0"0(0#0#64"/Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m2418987504#1969"    cd /Users/Jamming/Documents/ScrollViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-generated-files.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-own-target-headers.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-all-target-headers.hmap -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-project-headers.hmap -F/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -I/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/include -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources/armv7 -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources -include /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-dlwyxiiylfxpcqgftznlmbdqwxdt/ScrollViewSample_Prefix.pch -c /Users/Jamming/Documents/ScrollViewSample/ScrollViewController.m -o /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewController.o0#
+
+CCompileC build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/main.o /Users/Jamming/Documents/ScrollViewSample/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s350797587.908956
+e350797595.156915
+r1
+xCompileC
+xbuild/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/main.o
+x/Users/Jamming/Documents/ScrollViewSample/Shared/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Jamming/Documents/ScrollViewSample/Shared/main.m350797587#350797595#0(0"0(0#0#55"/Users/Jamming/Documents/ScrollViewSample/Shared/main.m4261848#1944"    cd /Users/Jamming/Documents/ScrollViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-generated-files.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-own-target-headers.hmap -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-all-target-headers.hmap -iquote /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample-project-headers.hmap -F/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -I/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/include -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources/armv7 -I/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/DerivedSources -include /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-dlwyxiiylfxpcqgftznlmbdqwxdt/ScrollViewSample_Prefix.pch -c /Users/Jamming/Documents/ScrollViewSample/Shared/main.m -o /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/Jamming/Documents/ScrollViewSample/iPad/MainWindow_iPad.xib
+s350797577.307764
+e350797578.178588
+r1
+xCompileXIB
+x/Users/Jamming/Documents/ScrollViewSample/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib350797577#350797578#0(0"0(0#0#66"/Users/Jamming/Documents/ScrollViewSample/iPad/MainWindow_iPad.xib2418987504#575"    cd /Users/Jamming/Documents/ScrollViewSample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/MainWindow_iPad.nib /Users/Jamming/Documents/ScrollViewSample/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/Jamming/Documents/ScrollViewSample/iPhone/MainWindow_iPhone.xib
+s350797576.150947
+e350797577.307645
+r1
+xCompileXIB
+x/Users/Jamming/Documents/ScrollViewSample/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib350797576#350797577#0(0"0(0#0#70"/Users/Jamming/Documents/ScrollViewSample/iPhone/MainWindow_iPhone.xib2418987504#581"    cd /Users/Jamming/Documents/ScrollViewSample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/MainWindow_iPhone.nib /Users/Jamming/Documents/ScrollViewSample/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCpResource build/Debug-iphoneos/ScrollViewSample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s350797576.042616
+e350797576.150873
+r1
+xCpResource
+xbuild/Debug-iphoneos/ScrollViewSample.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist350797576#350797576#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist4261848#509"    cd /Users/Jamming/Documents/ScrollViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app0#
+
+CCpResource build/Debug-iphoneos/ScrollViewSample.app/photo photo
+s350797578.180874
+e350797578.969254
+r1
+xCpResource
+xbuild/Debug-iphoneos/ScrollViewSample.app/photo
+xphoto
+lSLF07#2@10"Copy photo350797578#350797578#0(0"0(0#0#47"/Users/Jamming/Documents/ScrollViewSample/photo2418987504#467"    cd /Users/Jamming/Documents/ScrollViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Jamming/Documents/ScrollViewSample/photo /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app0#
+
+CCpResource build/Debug-iphoneos/ScrollViewSample.app/thumb thumb
+s350797578.178707
+e350797578.534253
+r1
+xCpResource
+xbuild/Debug-iphoneos/ScrollViewSample.app/thumb
+xthumb
+lSLF07#2@10"Copy thumb350797578#350797578#0(0"0(0#0#47"/Users/Jamming/Documents/ScrollViewSample/thumb2418987504#467"    cd /Users/Jamming/Documents/ScrollViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Jamming/Documents/ScrollViewSample/thumb /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app0#
+
+CCreateUniversalBinary /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample normal "armv6 armv7"
+s350798660.996376
+e350798661.002137
+r1
+xCreateUniversalBinary
+x/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample
+xnormal
+xarmv6 armv7
+lSLF07#2@101"CreateUniversalBinary build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample normal "armv6 armv7"350798660#350798661#0(0"0(0#0#53"/Users/Jamming/Documents/ScrollViewSample/armv6 armv72418987504#602"    cd /Users/Jamming/Documents/ScrollViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewSample /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewSample -output /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample0#
+
+CGenerateDSYMFile /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app.dSYM /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample
+s350798661.002213
+e350798661.039968
+r1
+xGenerateDSYMFile
+x/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app.dSYM
+x/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample
+lSLF07#2@122"GenerateDSYMFile build/Debug-iphoneos/ScrollViewSample.app.dSYM build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample350798661#350798661#0(0"0(0#0#100"/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample2418987504#398"    cd /Users/Jamming/Documents/ScrollViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ScrollViewSample -o /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app.dSYM0#
+
+CLd /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewSample normal armv6
+s350798660.706947
+e350798660.780686
+r1
+xLd
+x/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewSample
+xnormal
+xarmv6
+lSLF07#2@151"Link /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewSample350798660#350798660#0(0"0(0#0#0"2418987504#928"    cd /Users/Jamming/Documents/ScrollViewSample    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -F/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -filelist /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewSample.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv6/ScrollViewSample0#
+
+CLd /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewSample normal armv7
+s350798660.933997
+e350798660.996300
+r1
+xLd
+x/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewSample
+xnormal
+xarmv7
+lSLF07#2@151"Link /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewSample350798660#350798660#0(0"0(0#0#0"2418987504#928"    cd /Users/Jamming/Documents/ScrollViewSample    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -F/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos -filelist /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewSample.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/Objects-normal/armv7/ScrollViewSample0#
+
+CProcessInfoPlistFile /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/Info.plist ScrollViewSample-Info.plist
+s350797576.100661
+e350797576.135968
+r1
+xProcessInfoPlistFile
+x/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/Info.plist
+xScrollViewSample-Info.plist
+lSLF07#2@35"Process ScrollViewSample-Info.plist350797576#350797576#0(0"0(0#0#69"/Users/Jamming/Documents/ScrollViewSample/ScrollViewSample-Info.plist2418987504#610"    cd /Users/Jamming/Documents/ScrollViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ScrollViewSample-Info.plist -genpkginfo /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/ResourceRules.plist -o /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/Info.plist0#
+
+CProcessPCH /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-dlwyxiiylfxpcqgftznlmbdqwxdt/ScrollViewSample_Prefix.pch.gch ScrollViewSample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/6p/6pR8jbZDFU0+KNjS07RdFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollViewSample_Prefix-ffqeuphcwqtdbweqmmuudpgahqtx/ScrollViewSample_Prefix.pch.gch ScrollViewSample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/Jamming/Library/MobileDevice/Provisioning Profiles/96DC96E5-06F0-4BC7-B3DD-017C4428E13A.mobileprovision" /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/embedded.mobileprovision
+s350797597.473642
+e350797597.475961
+r1
+xProcessProductPackaging
+x/Users/Jamming/Library/MobileDevice/Provisioning Profiles/96DC96E5-06F0-4BC7-B3DD-017C4428E13A.mobileprovision
+x/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/Jamming/Library/MobileDevice/Provisioning Profiles/96DC96E5-06F0-4BC7-B3DD-017C4428E13A.mobileprovision" build/Debug-iphoneos/ScrollViewSample.app/embedded.mobileprovision350797597#350797597#0(0"0(0#0#108"/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/embedded.mobileprovision2418987504#440"    cd /Users/Jamming/Documents/ScrollViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Jamming/Library/MobileDevice/Provisioning Profiles/96DC96E5-06F0-4BC7-B3DD-017C4428E13A.mobileprovision" -o /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample.xcent
+s350797597.502550
+e350797597.518328
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample.xcent
+lSLF07#2@202"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample.xcent350797597#350797597#0(0"0(0#0#131"/Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample.xcent2418987504#465"    cd /Users/Jamming/Documents/ScrollViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/Jamming/Documents/ScrollViewSample/build/ScrollViewSample.build/Debug-iphoneos/ScrollViewSample.build/ScrollViewSample.xcent0#
+
+CTouch /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app
+s350798661.040300
+e350798661.048778
+r1
+xTouch
+x/Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app
+lSLF07#2@89"Touch /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app350798661#350798661#0(0"0(0#0#0"2418987504#279"    cd /Users/Jamming/Documents/ScrollViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jamming/Documents/ScrollViewSample/build/Debug-iphoneos/ScrollViewSample.app0#
+
